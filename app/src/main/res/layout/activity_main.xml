@@ -31,16 +31,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/details"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:text="Altitude: unknown"
+        android:layout_marginTop="170dp"
+        android:breakStrategy="high_quality"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="7dp"
+        android:scrollHorizontally="false"
+        android:text="Altitude: unknown \n Address: unknown street, unknown number"
         android:textAlignment="center"
         android:textColor="#041259"
-        android:textSize="32sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
